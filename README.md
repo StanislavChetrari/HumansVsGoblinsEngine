@@ -59,7 +59,7 @@ To build the engine as a shared library define variable `BUILD_HUMANS_VS_GOBLINS
 
 # Examples
 
-To see the engine in action see repository `HumanVsGoblinDemo`.
+To see the engine in action see repository `HumansVsGoblinsDemo`.
 
 # License
 
