@@ -1,0 +1,34 @@
+
+These are files to test PropertiesFileParser:
+
+0.txt  : (pfNoError) Empty file.
+1.txt  : (pfNoError) One int property.
+2.txt  : (pfNoError) One float property.
+3.txt  : (pfNoError) One string property.
+4.txt  : (pfNoError) One empy array property
+5.txt  : (pfNoError) One array property with one element.
+6.txt  : (pfNoError) One array property with 5 elements.
+7.txt  : (pfNoError) Many properties of mixed types.
+8.txt  : (pfNoError) Many properties of mixed types with all types of whitespaces.
+9.txt  : (pfNoError) One line comment.
+10.txt : (pfNoError) Many one line comments.
+11.txt : (pfNoError) One multiline comment.
+12.txt : (pfNoError) Many multiline comments.
+13.txt : (pfNoError) Many properties of mixed types with all types of whitespaces and all types of comments.
+
+14.txt : (peExpectedIdentifier) One property without identifier.
+15.txt : (peExpectedEqualSign) One property without '=' sign.
+16.txt : (peExpectedSimpleOrArrayValue) One property without value.
+17.txt : (peExpectedSemicolon) One property without semicolon.
+18.txt : (peExpectedDigitAfterDecimalPoint) One float property without digits after decimal point.
+19.txt : (peExpectedStringEndingQuotationMark) One string property without ending double quotes character.
+20.txt : (peExpectedEndOfArray) One empty array property without ending ']' character.
+21.txt : (peExpectedEndOfArray) One array property with invalid value.
+22.txt : (peExpectedEndOfArray) One array property without coma character between 2 values.
+23.txt : (peExpectedEndOfArray) One array property with many values and missing first value.
+24.txt : (peExpectedSimpleValue) One array proeprty with many values and missing last value.
+25.txt : (peExpectedEndOfArray) One array property with many values and missing ending ']' character.
+
+26.txt : (pfNoError) Many int properties check name of property and value. Also number of properties.
+27.txt : (pfNoError) Many float properties check name of property and value. Also number of properties.
+28.txt : (pfNoError) Many string properties check name of proeprty and value. Also number of properties.

@@ -1,0 +1,4 @@
+prop1="str1";
+prop2="str2";
+prop3="str3";
+prop4="str4";
